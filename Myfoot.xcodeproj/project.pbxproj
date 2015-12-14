@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA079F231C15A1B500FC6AC5 /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA079F221C15A1B500FC6AC5 /* MatchTableViewCell.swift */; };
 		DA2FD9781C04789400AF27FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD9771C04789400AF27FC /* AppDelegate.swift */; };
-		DA2FD97A1C04789400AF27FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD9791C04789400AF27FC /* FirstViewController.swift */; };
-		DA2FD97C1C04789400AF27FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD97B1C04789400AF27FC /* SecondViewController.swift */; };
-		DA2FD97F1C04789400AF27FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD97D1C04789400AF27FC /* Main.storyboard */; };
 		DA2FD9811C04789400AF27FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD9801C04789400AF27FC /* Assets.xcassets */; };
 		DA2FD9841C04789400AF27FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD9821C04789400AF27FC /* LaunchScreen.storyboard */; };
+		DA2FD98C1C047BB100AF27FC /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD98B1C047BB100AF27FC /* LiveViewController.swift */; };
+		DA2FD98E1C04B1DB00AF27FC /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD98D1C04B1DB00AF27FC /* NewsTableViewController.swift */; };
+		DA2FD9931C04B57500AF27FC /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2FD9921C04B57500AF27FC /* TeamsTableViewController.swift */; };
+		DA2FD9B41C10967800AF27FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2FD9B21C10967800AF27FC /* Main.storyboard */; };
+		DAB2F57C1C1EE52B000943B3 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2F57B1C1EE52B000943B3 /* TeamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA079F221C15A1B500FC6AC5 /* MatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
 		DA2FD9741C04789300AF27FC /* Myfoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myfoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2FD9771C04789400AF27FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA2FD9791C04789400AF27FC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DA2FD97B1C04789400AF27FC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		DA2FD97E1C04789400AF27FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA2FD9801C04789400AF27FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2FD9831C04789400AF27FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA2FD9851C04789400AF27FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2FD98B1C047BB100AF27FC /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		DA2FD98D1C04B1DB00AF27FC /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		DA2FD9921C04B57500AF27FC /* TeamsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		DA2FD9B31C10967800AF27FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB2F57B1C1EE52B000943B3 /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				DA2FD9771C04789400AF27FC /* AppDelegate.swift */,
-				DA2FD9791C04789400AF27FC /* FirstViewController.swift */,
-				DA2FD97B1C04789400AF27FC /* SecondViewController.swift */,
-				DA2FD97D1C04789400AF27FC /* Main.storyboard */,
 				DA2FD9801C04789400AF27FC /* Assets.xcassets */,
 				DA2FD9821C04789400AF27FC /* LaunchScreen.storyboard */,
+				DA2FD9B21C10967800AF27FC /* Main.storyboard */,
 				DA2FD9851C04789400AF27FC /* Info.plist */,
+				DA2FD98B1C047BB100AF27FC /* LiveViewController.swift */,
+				DA2FD98D1C04B1DB00AF27FC /* NewsTableViewController.swift */,
+				DA2FD9921C04B57500AF27FC /* TeamsTableViewController.swift */,
+				DA079F221C15A1B500FC6AC5 /* MatchTableViewCell.swift */,
+				DAB2F57B1C1EE52B000943B3 /* TeamViewController.swift */,
 			);
 			path = Myfoot;
 			sourceTree = "<group>";
@@ -125,9 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2FD9B41C10967800AF27FC /* Main.storyboard in Resources */,
 				DA2FD9841C04789400AF27FC /* LaunchScreen.storyboard in Resources */,
 				DA2FD9811C04789400AF27FC /* Assets.xcassets in Resources */,
-				DA2FD97F1C04789400AF27FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +147,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2FD97C1C04789400AF27FC /* SecondViewController.swift in Sources */,
 				DA2FD9781C04789400AF27FC /* AppDelegate.swift in Sources */,
-				DA2FD97A1C04789400AF27FC /* FirstViewController.swift in Sources */,
+				DAB2F57C1C1EE52B000943B3 /* TeamViewController.swift in Sources */,
+				DA2FD9931C04B57500AF27FC /* TeamsTableViewController.swift in Sources */,
+				DA079F231C15A1B500FC6AC5 /* MatchTableViewCell.swift in Sources */,
+				DA2FD98C1C047BB100AF27FC /* LiveViewController.swift in Sources */,
+				DA2FD98E1C04B1DB00AF27FC /* NewsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA2FD97D1C04789400AF27FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA2FD97E1C04789400AF27FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA2FD9821C04789400AF27FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DA2FD9831C04789400AF27FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DA2FD9B21C10967800AF27FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2FD9B31C10967800AF27FC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,6 +300,7 @@
 				DA2FD98A1C04789400AF27FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
