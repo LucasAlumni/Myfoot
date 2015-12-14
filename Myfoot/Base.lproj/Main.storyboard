@@ -39,7 +39,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="9ny-1T-W4Z" kind="push" id="jej-1b-ytD"/>
+                                    <segue destination="9ny-1T-W4Z" kind="push" identifier="SegueTeam" id="jej-1b-ytD"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -57,7 +57,7 @@
         <!--Team View Controller-->
         <scene sceneID="Odr-PI-vgD">
             <objects>
-                <viewController id="9ny-1T-W4Z" customClass="TeamViewController" customModule="Myfoot" sceneMemberID="viewController">
+                <viewController id="9ny-1T-W4Z" customClass="TeamViewController" customModule="Myfoot" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3KI-BZ-OtX"/>
                         <viewControllerLayoutGuide type="bottom" id="zIQ-aq-c48"/>
@@ -87,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="1450110611_24.TV" translatesAutoresizingMaskIntoConstraints="NO" id="NaA-hN-jMK">
-                                <rect key="frame" x="80" y="63" width="161" height="119"/>
+                                <rect key="frame" x="80" y="62" width="161" height="119"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pas de match aujourd'hui" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fpk-T8-4Zm">
                                 <rect key="frame" x="64" y="273" width="193" height="21"/>

@@ -9,9 +9,14 @@
 import UIKit
 
 class TeamViewController: UIViewController {
-
+    
+    var Value = [];
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("-- Page Info teams --");
+        print(Value);
 
         // Do any additional setup after loading the view.
     }

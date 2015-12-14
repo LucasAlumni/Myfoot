@@ -24,7 +24,7 @@ class TeamsTableViewController: UITableViewController {
                 let results: NSArray = json["teams"] as! NSArray
                 self.tableData = results
                 self.tableView.reloadData()
-                print(self.tableData)
+                //print(self.tableData)
                 
                 
                 
@@ -82,7 +82,7 @@ class TeamsTableViewController: UITableViewController {
         
         // Afficher le nom de chaque rows ( Json convert to string )
         let rowData : NSDictionary = self.tableData[indexPath.row] as! NSDictionary
-        cell.textLabel?.text = rowData["stand_team_name"] as? String
+        cell.textLabel?.text = z=a["stand_team_name"] as? String
         cell.detailTextLabel?.text = rowData["stand_position"] as? String
         
         
@@ -126,14 +126,21 @@ class TeamsTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        
+        if (segue.identifier == "SegueTeam") {
+            
+            // initialize new view controller and cast it as your view controller
+            let viewController = segue.destinationViewController as! TeamViewController
+            // your new view controller should have property that will store passed value
+            viewController.Value = self.tableData
+        }
+        
     }
-    */
+    
 
 }
