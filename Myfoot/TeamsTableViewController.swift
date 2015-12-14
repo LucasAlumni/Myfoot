@@ -82,7 +82,7 @@ class TeamsTableViewController: UITableViewController {
         
         // Afficher le nom de chaque rows ( Json convert to string )
         let rowData : NSDictionary = self.tableData[indexPath.row] as! NSDictionary
-        cell.textLabel?.text = z=a["stand_team_name"] as? String
+        cell.textLabel?.text = rowData["stand_team_name"] as? String
         cell.detailTextLabel?.text = rowData["stand_position"] as? String
         
         
